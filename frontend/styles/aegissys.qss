@@ -1,0 +1,73 @@
+
+QMainWindow, QWidget {
+    background-color: #0B0F14;
+    color: #E6EDF3;
+    font-family: "Segoe UI";
+    font-size: 14px;
+}
+
+QFrame#sidebar {
+    background-color: #10161D;
+    border-right: 1px solid #27313D;
+}
+
+QLabel#logo {
+    color: #4F8CFF;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+QLabel#muted {
+    color: #8492A6;
+    font-size: 10px;
+}
+
+QLabel#pageTitle {
+    font-size: 27px;
+    font-weight: bold;
+}
+
+QLabel#sectionTitle {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+QPushButton#navButton {
+    background-color: transparent;
+    color: #AAB7C5;
+    border: none;
+    border-radius: 7px;
+    padding: 12px;
+    text-align: left;
+}
+
+QPushButton#navButton:hover {
+    background-color: #1C2735;
+    color: #FFFFFF;
+}
+
+QPushButton#navButton:checked {
+    background-color: #1C2D46;
+    color: #6EA5FF;
+}
+
+QFrame#statCard, QFrame#panel {
+    background-color: #151C24;
+    border: 1px solid #27313D;
+    border-radius: 10px;
+}
+
+QLabel#cardTitle {
+    color: #AAB7C5;
+    font-size: 13px;
+}
+
+QLabel#statValue {
+    color: #FFFFFF;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+QLabel#mutedText {
+    color: #8492A6;
+}
